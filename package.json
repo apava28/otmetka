@@ -1,0 +1,15 @@
+{
+  "name": "otmetka",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler d1 migrations apply DB --remote && wrangler deploy",
+    "start": "node local/server.mjs",
+    "console": "node local/console.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.92.0"
+  }
+}
