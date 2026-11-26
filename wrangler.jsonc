@@ -11,7 +11,7 @@
     {
       "binding": "DB",
       "database_name": "otmetka-db",
-      "database_id": "00000000-0000-4000-8000-000000000000",
+      "database_id": "837d888d-5d18-4bdd-8124-29976bacefb1",
       "migrations_dir": "migrations"
     }
   ]
